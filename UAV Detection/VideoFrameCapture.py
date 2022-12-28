@@ -12,8 +12,8 @@ from math import floor,ceil
 
 
 #*---Önemli Değişkenler---
-video_dir = "/Videos" # Videoya ait dizini seçiyoruz. Şu an da "%current_working_directory%/videos/video.mp4" dizini seçili
-save_dir = "data"
+video_dir = "/Videos" # Videoya ait dizini seçiyoruz. Şu an da "%current_working_directory%/Videos" dizini seçili
+save_dir = "data" #Ekran görüntülerinin kayıt edileceği dizini seçiyoruz
 interval = 2 # Interval in seconds
 img_extension = ".png" # Target image type
 
