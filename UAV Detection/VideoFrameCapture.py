@@ -3,7 +3,7 @@
 * Kullanım amacı, dataset kaynağı olan videolardan frame elde edilerek labeling işlemine tabi tutulmasıdır.
 ? Sorularınız için: kayraproject@gmail.com
 ! OS modülünün dosya işlemlerini gerçekleştirebilmesi için yönetici olarak çalıştırınız.
-TODO: Kod dataset oluşturmak için hazır, tüm testler başarıyla tamamlandı, proje kapsamında kullanılabilir.
+TODO: Videolardan toplanan frameler ortak klasörde değil, videolara özel ayrı birer alt klasörde toplanacak.
 """
 
 import cv2 as cv
