@@ -54,11 +54,9 @@ def getFramesFromVideo(video_file):
             break
     cap.release()
 
-    print(f"\n\n\nTotal of {str(max_iter)} images saved.")
-    print(f"Save directory: {save_dir}")
+    print(f"\n\n\nTotal of {str(max_iter)} images saved.\nSave directory: {save_dir}")
 
 for video in videos:
     getFramesFromVideo(video)
 
-print("\n\n\nAll videos in the destination folder have been processed successfully.")
-print("\nThere is nothing to do.")
+print("\n\n\nAll videos in the destination folder have been processed successfully.\nThere is nothing to do.")
